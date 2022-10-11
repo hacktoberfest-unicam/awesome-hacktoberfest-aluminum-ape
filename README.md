@@ -88,13 +88,17 @@ Punti aggiuntivi verranno assegnati se:
 
 Challenge Parallela
 ---
-Realizzazione del logo di Computer Science. 
+<b>Realizzazione del logo di Computer Science.</b>
  
 Nonostante siano passati molti anni da quando unicam ha aperto il dipartimento di Informatica, che col passare del tempo è cresciuto fino a comprendere due corsi Triennali, cinque corsi Magistrali e altri corsi tra Master e Dottorati, nessuno ha mai realizzato un logo distintivo, specifico e unico. 
  
-La gara parallela non fa parte di hacktoberfest, ma è un'iniziativa che permetterà anche a noi informatici di avere le nostre felpe e magliette personalizzate con il nostro logo. 
+<b>La gara parallela non fa parte di hacktoberfest</b>, ma è un'iniziativa che permetterà anche a noi informatici di avere le nostre felpe e magliette personalizzate con il nostro logo. 
  
-Per maggiori informazioni o inviare il vostro lavoro per farlo selezionare come logo, scrivere a <a href="mailto:bla@unicam.it">bla@unicam.it</a>
+Per <b>maggiori informazioni</b> o <b>inviare il vostro lavoro</b> per farlo selezionare come logo, scrivere a <b><a href="mailto:bla@unicam.it">bla@unicam.it</a></b>
+
+Per trasmettere i file, è obbligatorio <b>usare la mail universitaria</b> e scrivere i propri dati principali, Nome, Cognome, Anno di Iscrizione/Anno Frequentato e Matricola nel corpo della mail.
+
+<b>Deadline</b> per inviare lavori e partecipare così alla challenge <b>15/12/2022</b>.
 
 Materiale Aggiuntivo
 ---
