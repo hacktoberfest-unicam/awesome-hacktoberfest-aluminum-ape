@@ -37,23 +37,23 @@ Vi ricordiamo innanzitutto i tools gratuti messi a disposizione dal account univ
 Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessanti:
 
 * IDE ed editor di testo
-  * Visual Studio Code
-  * Atom (Verrà discontinuato il 15/12/2022)
-  * Sublime
-  * VIM
-    * Powerline con varie estensioni
-  * Nano
-  * EMACS
+  * [Visual Studio Code](https://github.com/microsoft/vscode)
+  * [Atom](https://github.com/atom) (Verrà discontinuato il 15/12/2022)
+  * [Sublime Text](https://www.sublimetext.com/)
+  * [VIM](https://www.vim.org/)
+    * [Powerline](https://www.vim.org/) con varie estensioni
+  * [Nano](https://www.vim.org/)
+  * [EMACS](https://www.gnu.org/software/emacs/)
 * Framework per applicazioni web e mobile
-  * AngularJS
-  * Flutter
-  * React
-  * VueJS
-  * Ionic
+  * [Angular](https://angular.io/)
+  * [Flutter](https://flutter.dev/)
+  * [React](https://reactjs.org/)
+  * [VueJS](https://vuejs.org/)
+  * [Ionic](https://ionicframework.com/)
 * Tool di modellazione grafica e svillupo 3D
-  * Blender
-  * Unity
-  * Godot
+  * [Blender](https://github.com/blender)
+  * [Unity](https://unity.com/)
+  * [Godot](https://godotengine.org/)
 
 Hackathon
 ---
@@ -84,6 +84,7 @@ Punti aggiuntivi verranno assegnati se:
 * Esegui una Pull Request nella repository dell'app [IO](https://github.com/pagopa)
 * Esegui una Pull Request nella repository [UnicamOrari](https://github.com/ZamponiMarco/UnicamOrari)
 * Esegui una Pull Request nella repository [Meetpad](https://github.com/regione-marche/meetpad-public)
+* Esegui una Pull Request in una repository che partecipa all'[Hacktoberfest](https://github.com/search?q=hacktoberfest)
 * Hai già iniziato a partecipare ad Hacktoberfest di quest'anno prima di Oggi
 
 Challenge Parallela
@@ -109,5 +110,6 @@ Qua invece trovi del materiale extra open source, può esserti utile nei tuoi st
 * [Libri riguardo la programmazione](https://github.com/EbookFoundation/free-programming-books)
 * [Documenti per prepararsi alle Coding Interview quando si cerca lavoro](https://github.com/jwasham/coding-interview-university)
 * [Framework, Librerie, Software e Risorse per Python](https://github.com/vinta/awesome-python)
+* [Libri riguardo la Programmazione](https://github.com/EbookFoundation/free-programming-books)
 
 Buona Challenge da Unicam!
