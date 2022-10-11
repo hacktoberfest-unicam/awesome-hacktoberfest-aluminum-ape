@@ -1,1 +1,1 @@
-### Make a program to check input without having an SQL injection 
+### Make a checking input program to avoid SQL injection 
