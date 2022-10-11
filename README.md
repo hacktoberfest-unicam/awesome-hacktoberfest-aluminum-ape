@@ -1,6 +1,6 @@
 # Awesome Hacktoberfest Aluminum Ape
 <p align="center">
-  <img src="img/output.jpg" height="300">
+  <img src=".github/img/output.jpg" height="300">
   <br>
   <img src="https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge-flat.svg">
 </p>
