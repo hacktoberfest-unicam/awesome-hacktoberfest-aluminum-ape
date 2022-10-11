@@ -85,8 +85,8 @@ Punti aggiuntivi verranno assegnati se:
 * Esegui una Pull Request nella repository [UnicamOrari](https://github.com/ZamponiMarco/UnicamOrari)
 * Esegui una Pull Request nella repository [Meetpad](https://github.com/regione-marche/meetpad-public)
 * Esegui una Pull Request in una repository di [quasylab](https://github.com/quasylab)
-* Esegui una Pull Request in una repository di [UnicamPlayGround](https://github.com/UnicamPlayGround)
 * Esegui una Pull Request in una repository di [PROS Lab](https://github.com/PROSLab)
+* Esegui una Pull Request in una repository di [UnicamPlayGround](https://github.com/UnicamPlayGround)
 * Esegui una Pull Request in una repository che partecipa all'[Hacktoberfest](https://github.com/search?q=hacktoberfest)
 * Hai già iniziato a partecipare ad Hacktoberfest di quest'anno prima di Oggi
 
