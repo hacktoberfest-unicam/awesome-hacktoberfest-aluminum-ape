@@ -87,6 +87,8 @@ Punti aggiuntivi verranno assegnati se:
 * Esegui una Pull Request in una repository che partecipa all'[Hacktoberfest](https://github.com/search?q=hacktoberfest)
 * Hai già iniziato a partecipare ad Hacktoberfest di quest'anno prima di Oggi
 
+Chiunque competa nella categoria "Extra", cioè pull request in progetti importanti e/o altre repositoy hacktoberfest, lo comunichi aprendo una issue e mettendo il link alla propria pr, verrà citato nel file [HONORABLE_MENTIONS.md](HONORABLE_MENTIONS.md)
+
 Challenge Parallela
 ---
 <b>Realizzazione del logo di Computer Science.</b>
