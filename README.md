@@ -72,7 +72,7 @@ Se hai le competenze e conoscenze per partecipare ad almeno una tra le prime 5 s
 
 Classifiche e Punteggi
 ---
-Durante questa edizione di Hacktoberfest@Unicam, anche per scusarci dei premi mai consegnati l'anno scorso, abbiamo deciso di creare varie classifiche e dare più premi.
+Durante questa edizione di Hacktoberfest@Unicam, abbiamo deciso di creare varie classifiche e dare più premi.
 
 Abbiamo diviso l'hackathon tra chi partecipa come solo player e chi partecipa in team, con classifiche e punteggi separati.
 
