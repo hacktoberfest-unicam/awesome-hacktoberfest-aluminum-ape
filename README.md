@@ -1,19 +1,20 @@
 # Awesome Hacktoberfest Aluminum Ape
 <p align="center">
-<img src="https://raw.githubusercontent.com/sindresorhus/awesome/master/media/logo.png" height="300">
+  <img src="img/output.jpg" height="300">
+  <br>
+  <img src="https://raw.githubusercontent.com/sindresorhus/awesome/main/media/badge-flat.svg">
 </p>
 
 ---
 
 <p align="center">
-    Lista di <b>progetti</b> e <b>utility</b> di sviluppo consigliati per il proseguimento del Hackathon 2022 nella sede universitaria di Camerino in occasione del <b>Hacktoberfest V3.0 - Aluminium Ape</b>, evento di natura informatica che ha lo scopo di unire e far divertire le persone mediante la conoscenza dell'<b>Open Source</b>.  
-    <br>
-    <br>
-    <b>
-        <a href="https://www.unicam.it/">Unicam</a> • 
-        <a href="https://hacktoberfest.com/">Evento</a> • 
-        <a href="https://it.wikipedia.org/wiki/Licenza_MIT">Licenza</a>
-    </b>
+  Lista di <b>progetti</b> e <b>utility</b> di sviluppo consigliati per il proseguimento del Hackathon 2022 nella sede universitaria di Camerino in occasione del <b>Hacktoberfest V3.0 - Aluminium Ape</b>, evento di natura informatica che ha lo scopo di unire e far divertire le persone mediante la conoscenza dell'<b>Open Source</b>.  
+  <br>
+  <b>
+      <a href="https://www.unicam.it/">Unicam</a> • 
+      <a href="https://hacktoberfest.com/">Evento</a> • 
+      <a href="https://it.wikipedia.org/wiki/Licenza_MIT">Licenza</a>
+  </b>
 </p>
 
 ---
@@ -84,6 +85,16 @@ Punti aggiuntivi verranno assegnati se:
 * Esegui una Pull Request nella repository [UnicamOrari](https://github.com/ZamponiMarco/UnicamOrari)
 * Esegui una Pull Request nella repository [Meetpad](https://github.com/regione-marche/meetpad-public)
 * Hai già iniziato a partecipare ad Hacktoberfest di quest'anno prima di Oggi
+
+Challenge Parallela
+---
+Realizzazione del logo di Computer Science. 
+ 
+Nonostante siano passati molti anni da quando unicam ha aperto il dipartimento di Informatica, che col passare del tempo è cresciuto fino a comprendere due corsi Triennali, cinque corsi Magistrali e altri corsi tra Master e Dottorati, nessuno ha mai realizzato un logo distintivo, specifico e unico. 
+ 
+La gara parallela non fa parte di hacktoberfest, ma è un'iniziativa che permetterà anche a noi informatici di avere le nostre felpe e magliette personalizzate con il nostro logo. 
+ 
+Per maggiori informazioni o inviare il vostro lavoro per farlo selezionare come logo, scrivere a <a href="mailto:bla@unicam.it">bla@unicam.it</a>
 
 Materiale Aggiuntivo
 ---
