@@ -40,7 +40,7 @@ Invece qui di seguito potete trovare utility di sviluppo che riteniamo interessa
   * [Visual Studio Code](https://github.com/microsoft/vscode)
   * [Atom](https://github.com/atom) (Verrà discontinuato il 15/12/2022)
   * [Sublime Text](https://www.sublimetext.com/)
-  * [VIM](https://www.vim.org/)
+  * [VIM](https://www.vim.org/) [VIM CheatSheet](https://github.com/StewAlexander-com/VIM-Awesome-Cheatsheet)
     * [Powerline](https://www.vim.org/) con varie estensioni
   * [Nano](https://www.vim.org/)
   * [EMACS](https://www.gnu.org/software/emacs/)
