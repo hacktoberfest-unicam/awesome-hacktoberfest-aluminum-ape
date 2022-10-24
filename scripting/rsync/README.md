@@ -12,8 +12,6 @@
 **How does rsync work?:** rsync works by establishing a connection to the target machine and then copying updated files to or from the target machine.
 
 **Usage example:**
-
-**Valori di prova:**
 |Command|Local file/directory|Remote file/directory|
 |------|----|----------------|
 |rsync|tesi.tex|192.168.1.42::tesi.tex|
