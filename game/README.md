@@ -1,1 +1,6 @@
-# Questo branch serve per raccogliere e filtrare tutte le proposte di problemi nella sezione "Game".
+Repository for algorithm based commits You can use one of the following Programming Languages
+
+- Java
+- Python
+- JS
+- PHP
