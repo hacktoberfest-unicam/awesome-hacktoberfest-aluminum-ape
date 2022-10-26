@@ -1,4 +1,4 @@
-Repository for web based commits
+Repository for algorithm based commits
 You can use one of the following Programming Languages
 
 - Java
