@@ -17,16 +17,25 @@
                 <input type="text" name="url" placeholder="Enter URL">
                 <input type="submit" value="Submit">
             <?php
-            
-            if(isset($_POST['url'])){
-                $url = $_POST['url'];
-                if (strpos($url, 'https://www.') !== 0) {
-                    $url = 'https://www.' . $url;
+            function validateURL($url){
+                
+                echo $url;
+                if(preg_match('%^(?:(?:https?|ftp)://)(?:\S+(?::\S*)?@|\d{1,3}(?:\.\d{1,3}){3}|(?:(?:[a-z\d\x{00a1}-\x{ffff}]+-?)*[a-z\d\x{00a1}-\x{ffff}]+)(?:\.(?:[a-z\d\x{00a1}-\x{ffff}]+-?)*[a-z\d\x{00a1}-\x{ffff}]+)*(?:\.[a-z\x{00a1}-\x{ffff}]{2,6}))(?::\d+)?(?:[^\s]*)?$%iu', $url)){
+                    return true;
+                }else{
+                    return false;
                 }
-                $url = filter_var($url, FILTER_SANITIZE_URL);
-                header('Location: '.$url);
+
             }
-            
+            if (isset($_POST['url'])) {
+                $url = $_POST['url'];
+                if (validateURL($url)) {
+                    $url = filter_var($url, FILTER_SANITIZE_URL);
+                    header('Location: ' . $url);
+                } else {
+                    echo 'Invalid URL';
+                }
+            }
             ?>
         </div>
     </div>
