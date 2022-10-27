@@ -18,7 +18,15 @@
                 <input type="submit" value="Submit">
             <?php
             function validateURL($url){
-                
+                #add https:// if not present
+                if (strpos($url, 'http') === false) {
+                    $url = 'https://' . $url;
+                }
+
+                #add / at the end if not present
+                if (substr($url, -1) != '/') {
+                    $url .= '/';
+                }
                 echo $url;
                 if(preg_match('%^(?:(?:https?|ftp)://)(?:\S+(?::\S*)?@|\d{1,3}(?:\.\d{1,3}){3}|(?:(?:[a-z\d\x{00a1}-\x{ffff}]+-?)*[a-z\d\x{00a1}-\x{ffff}]+)(?:\.(?:[a-z\d\x{00a1}-\x{ffff}]+-?)*[a-z\d\x{00a1}-\x{ffff}]+)*(?:\.[a-z\x{00a1}-\x{ffff}]{2,6}))(?::\d+)?(?:[^\s]*)?$%iu', $url)){
                     return true;
