@@ -1,4 +1,4 @@
-Take 2 times slot (Year/Month/Day Hou:Minute:Second), yuo must find the difference time.
+Take 2 times slot (Year/Month/Day Hou:Minute:Second), you must find the difference time.
 
 For example:
 
