@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect</title>
+</head>
+<body>
+
+<div class="div">
+    <h1>Redirect</h1>
+</div>
+<br>
+<div class="div">
+    <input type="text">
+    <button id="button">Redirect</button>
+</div>
+<br>
+<div class="div2">
+    <h1>IMPORTANT</h1>
+    <a>You write an url type like this: https://www.google.com or www.google.com</a>
+</div>
+</div>
+
+
+<script>
+    document.getElementById("button").addEventListener("click", function () {
+        let input = document.querySelector("input").value;
+        redirect(input);
+    });
+
+    function redirect(url) {
+        if (url.startsWith("http://") || url.startsWith("https://")) {
+            location.replace(url);
+        } else {
+            location.replace("https://" + url);
+        }
+    }
+</script>
+<style>
+    body {
+        background-color: #1e1e1e;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    button {
+        width: 100px;
+        height: 50px;
+        background-color: #14556e;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    input {
+        width: 500px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        margin: 5px;
+    }
+
+    .div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
+</body>
+</html>
