@@ -1,1 +1,0 @@
-Create a simple tris game 5x5 (where you win if you can concatenate 3 same symbols), but there are some hidden obstacles, some cells where you cannot put your symbols. You found a obstacle if you try put your symbol in there obstacle.
