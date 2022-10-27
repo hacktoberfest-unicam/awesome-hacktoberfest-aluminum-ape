@@ -1,2 +1,2 @@
-Hai uno zaino che può contenere n kg, dei piccoli blocchi da A kg e dei grandi blocchi da B kg. Bisogna trovare il numero esatto di piccoli e grandi blocchi in modo tale da ottenere esattamente n kg. Ridare un array (di lunghezza 2) di interi.
-# {numero piccoli blocchi, numero grandi blocchi}.
+You have a backpack that can hold n kg, small A kg blocks and large B kg blocks. It is necessary to find the exact number of small and large blocks in order to obtain exactly n kg. Return an array (of length 2) of integers.
+# {number of small blocks, number of large blocks}.
