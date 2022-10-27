@@ -17,8 +17,12 @@
                 <input type="text" name="url" placeholder="Enter URL">
                 <input type="submit" value="Submit">
             <?php
+            
             if(isset($_POST['url'])){
                 $url = $_POST['url'];
+                if (strpos($url, 'https://www.') !== 0) {
+                    $url = 'https://www.' . $url;
+                }
                 $url = filter_var($url, FILTER_SANITIZE_URL);
                 header('Location: '.$url);
             }
