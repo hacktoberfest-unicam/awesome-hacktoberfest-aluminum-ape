@@ -1,6 +1,6 @@
 Authors: Guramrit Singh | Cisca Simone
-Category: Tutorial
+ Category: Tutorial
 
---------------------
+ --------------------
 
-Problem: Convert a decimal number to binary
+ Problem: Create an algorithm that reorders the integer data in an array without using lambda functions.
