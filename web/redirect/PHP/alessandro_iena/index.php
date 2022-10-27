@@ -24,10 +24,9 @@
                 }
                 #add www if not present
                 if (strpos($url, 'www') === false) {
-                    $url = 'www.' . $url;
+                    $url = str_replace('https://', 'https://www.', $url);
                 }
-                return $url;
-            }
+                
                 #add / at the end if not present
                 if (substr($url, -1) != '/') {
                     $url .= '/';
@@ -44,7 +43,8 @@
                 $url = $_POST['url'];
                 if (validateURL($url)) {
                     $url = filter_var($url, FILTER_SANITIZE_URL);
-                    header('Location: ' . $url);
+                    //header('Location: ' . $url);
+                    echo "<script>window.location.href = '$url';</script>";
                 } else {
                     echo 'Invalid URL';
                 }
