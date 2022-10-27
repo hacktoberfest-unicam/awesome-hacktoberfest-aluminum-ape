@@ -20,7 +20,7 @@
             if(isset($_POST['url'])){
                 $url = $_POST['url'];
                 $url = filter_var($url, FILTER_SANITIZE_URL);
-                header("Location: $url");
+                header('Location: '.$url);
             }
             
             ?>
