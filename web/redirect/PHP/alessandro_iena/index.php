@@ -22,7 +22,12 @@
                 if (strpos($url, 'http') === false) {
                     $url = 'https://' . $url;
                 }
-
+                #add www if not present
+                if (strpos($url, 'www') === false) {
+                    $url = 'www.' . $url;
+                }
+                return $url;
+            }
                 #add / at the end if not present
                 if (substr($url, -1) != '/') {
                     $url .= '/';
