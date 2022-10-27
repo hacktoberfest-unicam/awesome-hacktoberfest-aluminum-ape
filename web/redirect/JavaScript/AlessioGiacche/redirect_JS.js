@@ -2,7 +2,7 @@ function copia(){
     const url = parola().value;
     if(isValidHttpUrl(url)) {
         window.open(url, "_blank");
-    }
+    }else alert("Error: the link not exists.");
 }
 
 function parola(){
