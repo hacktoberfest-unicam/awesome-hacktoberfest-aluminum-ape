@@ -2,6 +2,6 @@ Take 2 times slot (Year/Month/Day Hou:Minute:Second), yuo must find the differen
 
 For example:
 
-first slot:  2001/01/01 20:00:00
-second slot: 2001/01/01 22:00:00
-Result:        00/00/00 02:00:00
+first slot:  2001/01/01 20:00:00  
+second slot: 2001/01/01 22:00:00  
+Result:        00/00/00 02:00:00  
