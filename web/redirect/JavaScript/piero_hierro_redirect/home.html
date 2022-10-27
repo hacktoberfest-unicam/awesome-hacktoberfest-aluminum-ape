@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="url" type="text">
+    <button id="redirect" type="button">Redirect!</button>
+</body>
+<script type="module">
+    // example: https://www.google.com
+    document.getElementById('redirect').onclick = function () {
+        try {
+            url = new URL(document.getElementById('url').value);
+            window.location = document.getElementById('url').value
+        } catch (error) {
+            alert('url not valid');
+        }
+
+    }
+</script>
+
+</html>
