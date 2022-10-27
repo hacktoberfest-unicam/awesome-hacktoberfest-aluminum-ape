@@ -1,4 +1,3 @@
-import string
  # okaaay let's go
 
 print("hi it's me again please enter a thing:")
