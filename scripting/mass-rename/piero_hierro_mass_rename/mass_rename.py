@@ -1,6 +1,8 @@
 import argparse
 import os
 
+# example: python3 mass_rename.py $
+
 parser = argparse.ArgumentParser(description='mass rename tool, rename all files in the current directory')
 parser.add_argument('separator', help='separator')
 args = parser.parse_args()
