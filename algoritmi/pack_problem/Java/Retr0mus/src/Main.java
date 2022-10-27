@@ -1,9 +1,3 @@
-// Verifica: a < b; a, b > 0; pack > 0.
-// Tutti int.
-// Se pack % a == 0 allora la soluzione è pack/a.
-// Se pack % a != 0 allora se a e' pari e b e' dispari o viceversa (n-1)*a + b se < pack,
-// altrimenti resta la soluzione di prima.
-
 import java.util.Scanner;
 
 public class Main {
