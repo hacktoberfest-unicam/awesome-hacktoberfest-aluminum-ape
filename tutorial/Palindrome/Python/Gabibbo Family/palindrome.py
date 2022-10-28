@@ -1,4 +1,4 @@
-string = Input("Inserire stringa: ")
+string = input("Inserire stringa: ")
 
 #Palindrome check
 if string == string[::-1]:
