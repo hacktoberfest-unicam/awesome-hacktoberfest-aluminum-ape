@@ -38,14 +38,22 @@ while True:
                 header = row
                 break
         print(header)
-        # inserimento nuova riga
-        with open(file_name, 'a') as csvfile:
+
+        with open(file_name, 'a',newline='') as csvfile:
             writer = csv.writer(csvfile, delimiter=',')
             new_row = []
             for i in header:
                 new_row.append(input("Inserisci il valore per " + i + ": "))
+            writer.writerow([])
             writer.writerow(new_row)
             print("Riga inserita correttamente")
+        
+        with open(file_name, 'r') as f:
+            lines = f.readlines()
+        with open(file_name, 'w') as f:
+            for line in lines:
+                if line.strip("\n"):
+                    f.write(line)
 
     elif scelta == '3':
         print('Rimuovi una riga')
