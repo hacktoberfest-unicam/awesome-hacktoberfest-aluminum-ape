@@ -1,4 +1,4 @@
-Authors: Guramrit Singh | Cisca Simone
+Authors: Guramrit Singh | Cisca Simone<br>
 Category: Tutorial
 
 --------------------
