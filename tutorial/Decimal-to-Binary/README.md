@@ -3,4 +3,4 @@ Authors: Guramrit Singh | Cisca Simone
 
  --------------------
 
- Problem: Create an algorithm that reorders the integer data in an array without using lambda functions.
+ Problem: Convert a decimal number to binary
