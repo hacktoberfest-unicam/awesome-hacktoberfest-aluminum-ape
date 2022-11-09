@@ -1,6 +1,6 @@
 Authors: Guramrit Singh | Cisca Simone
-Category: Tutorial
+ Category: Tutorial
 
---------------------
+ --------------------
 
-Problem: Convert a decimal number to binary
+ Problem: Convert a decimal number to binary
